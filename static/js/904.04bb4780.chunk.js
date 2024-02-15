@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkanimechan_react=self.webpackChunkanimechan_react||[]).push([[904],{2904:(e,a,n)=>{n.r(a),n.d(a,{default:()=>r});n(9060);var c=n(2496);const r=function(){return(0,c.jsx)("h2",{children:"Home Page"})}}}]);
+//# sourceMappingURL=904.04bb4780.chunk.js.map
