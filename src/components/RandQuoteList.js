@@ -53,6 +53,7 @@ const RandQuoteList = () => {
 
   return (
     <div>
+      <h1>Random Quotes</h1>
       <Search placeholder="Search quotes by anime name" onSearch={handleSearch} style={{ marginBottom: '20px' }} />
       <Table
         dataSource={filteredQuote}
