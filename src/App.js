@@ -5,9 +5,8 @@ import routesforbidden from './routesforbidden';
 // import SideMenu from './components/SideMenu';
 // import AppHeader from './components/Header';
 // import AppFooter from './components/Footer';
-import { Layout, Menu, theme, Typography } from 'antd';
+import { Layout, Menu, theme } from 'antd';
 const { Header, Content, Footer, Sider } = Layout;
-const { Title } = Typography;
 
 const App = () => {
   const [collapsed, setCollapsed] = useState(false);
