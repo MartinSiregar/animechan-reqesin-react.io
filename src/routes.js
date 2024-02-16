@@ -7,7 +7,7 @@ const FavQuotesChoose = React.lazy(() => import('./components/FavQuotesChoose'))
 
 const routes = [
   {
-    path: '/home',
+    path: '/',
     component: Home,
     name: 'Home',
     exact: true,

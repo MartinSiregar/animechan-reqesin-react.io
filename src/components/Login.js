@@ -17,7 +17,7 @@ const Login = () => {
       setLoading(true);
       const { user, error: loginError } = await dispatch(login(values.username, values.password));
       if (user) {
-        history.push('/home');
+        history.push('/');
         window.location.reload();
       } else {
         setError(loginError);
