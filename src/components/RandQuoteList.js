@@ -33,7 +33,7 @@ const RandQuoteList = () => {
   const fetchRandomQuote = async (animeName) => {
     try {
       const quoteData = await getRandQuote(animeName);
-      setQuote([quoteData]);
+      setQuote(quoteData);
     } catch (error) {
       console.error('Error fetching quote:', error);
     }
@@ -41,7 +41,7 @@ const RandQuoteList = () => {
 
   const handleSearch = (value) => {
     setSearchText(value);
-    fetchRandomQuote(value); // Pass the anime name to the fetch function
+    fetchRandomQuote(value);
   };
 
   const filteredQuote = quote.filter(

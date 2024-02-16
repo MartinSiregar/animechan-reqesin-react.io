@@ -2,8 +2,8 @@ import axios from 'axios';
 
 const getRandQuote = (animeName) => {
   const url = animeName
-    ? `https://animechan.xyz/api/quotes/random?name=${encodeURIComponent(animeName)}`
-    : 'https://animechan.xyz/api/quotes/random';
+    ? `https://animechan.xyz/api/quotes?name=${encodeURIComponent(animeName)}`
+    : 'https://animechan.xyz/api/quotes';
 
   return new Promise(async (resolve, reject) => {
     try {
